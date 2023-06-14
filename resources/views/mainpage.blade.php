@@ -15,40 +15,55 @@
   <meta name="description" content="GYm,fitness,business,company,agency,multipurpose,modern,bootstrap4">
 
   <!-- theme meta -->
-  <meta name="theme-name" content="github template" />
+  <meta name="theme-name" content="gymfit-main" />
 
   <meta name="author" content="Themefisher.com">
 
-  <title>Gym Management System</title>
+  <title>GymFit| Fitness template</title>
 
   <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/bootstrap/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/bootstrap/css/bootstrap.min.css')}}">
 
   <!-- Icofont Css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/icofont/icofont.min.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/icofont/icofont.min.css')}}">
   <!-- Themify Css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/themify/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-mIN/theme/plugins/themify/css/themify-icons.css')}}">
   <!-- animate.css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/animate-css/animate.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/animate-css/animate.css')}}">
   <!-- Magnify Popup -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/magnific-popup/dist/magnific-popup.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/magnific-popup/dist/magnific-popup.css')}}">
   <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/slick-carousel/slick/slick.css')}}">
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/slick-carousel/slick/slick-theme.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/slick-carousel/slick/slick.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gym-fit\main/theme/plugins/slick-carousel/slick/slick-theme.css')}}">
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/css/style.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/css/style.css')}}">
 </head>
-
-@extends('master.layout')
-@section('content')
-
-
 <body>
 
 
 <!-- Section Menu Start -->
 <!-- Header Start -->
-
+<nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html">
+			<h2 class="text-white text-capitalize"></i>Gym<span class="text-color">Management System</span></h2>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid"
+			aria-controls="navbarsid" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="ti-view-list"></span>
+		</button>
+		<div class="collapse text-center navbar-collapse" id="navbarsid">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item"><a class="nav-link" href="/homepage">Homepage</a></li>
+				<li class="nav-item"><a class="nav-link" href="/registration">Registration</a></li>
+				<li class="nav-item"><a class="nav-link" href="/booking">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="/listofbooking">List of Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="/review">Customer Review</a></li>
+                <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
 
 
 <!-- Header Close -->
@@ -494,4 +509,3 @@
    </body>
 
    </html>
-   @endsection

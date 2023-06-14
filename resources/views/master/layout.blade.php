@@ -15,30 +15,32 @@
   <meta name="description" content="GYm,fitness,business,company,agency,multipurpose,modern,bootstrap4">
 
   <!-- theme meta -->
-  <meta name="theme-name" content="github template" />
+  <meta name="theme-name" content="gymfit-main" />
 
   <meta name="author" content="Themefisher.com">
 
   <title>GymFit| Fitness template</title>
 
   <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/bootstrap/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/bootstrap/css/bootstrap.min.css')}}">
 
   <!-- Icofont Css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/icofont/icofont.min.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/icofont/icofont.min.css')}}">
   <!-- Themify Css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/themify/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-mIN/theme/plugins/themify/css/themify-icons.css')}}">
   <!-- animate.css -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/animate-css/animate.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/animate-css/animate.css')}}">
   <!-- Magnify Popup -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/magnific-popup/dist/magnific-popup.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/magnific-popup/dist/magnific-popup.css')}}">
   <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/slick-carousel/slick/slick.css')}}">
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/slick-carousel/slick/slick-theme.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/plugins/slick-carousel/slick/slick.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gym-fit\main/theme/plugins/slick-carousel/slick/slick-theme.css')}}">
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/css/style.css')}}">
+  <link rel="stylesheet" href="{{asset('gymfit-main\gymfit-main/theme/css/style.css')}}">
 </head>
 <body>
+
+
 
 
 <!-- Section Menu Start -->
@@ -46,7 +48,7 @@
 <nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="index.html">
-			<h2 class="text-white text-capitalize"></i>Gym<span class="text-color">Fit</span></h2>
+			<h2 class="text-white text-capitalize"></i>Gym<span class="text-color">Management System</span></h2>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid"
 			aria-controls="navbarsid" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,28 +56,13 @@
 		</button>
 		<div class="collapse text-center navbar-collapse" id="navbarsid">
 			<ul class="navbar-nav mx-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="/mainpage">Homepage<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-						aria-expanded="false">Registration</a>
-
-				</li>
-				<li class="nav-item"><a class="nav-link" href="/booking">Booking</a></li>
-				<li class="nav-item"><a class="nav-link" href="/listbooking">List Of Booking</a></li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-						aria-expanded="false">Customer Review</a>
-
-				</li>
-				<li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
+				<li class="nav-item"><a class="nav-link" href="/homepage">Homepage</a></li>
+				<li class="nav-item"><a class="nav-link" href="service.html">Registration</a></li>
+				<li class="nav-item"><a class="nav-link" href="pricing.html">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">List of Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">Customer Review</a></li>
+                <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
 			</ul>
-			<div class="my-md-0 ml-lg-4 mt-4 mt-lg-0 ml-auto text-lg-right mb-3 mb-lg-0">
-				<a href="tel:+23-345-67890">
-					<h3 class="text-color mb-0"><i class="ti-mobile mr-2"></i></h3>
-				</a>
-			</div>
 		</div>
 	</div>
 </nav>
@@ -85,7 +72,6 @@
 
 @yield('content')
 
-<!-- Section Footer Start -->
 <!-- footer Start -->
 <footer class="footer bg-black-50">
 	<div class="container">

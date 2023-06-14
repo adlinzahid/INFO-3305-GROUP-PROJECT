@@ -51,9 +51,9 @@ button:hover, a:hover {
                   <ul class="list-inline mb-0">
                     <li class="list-inline-item"><a href="index.html" class="text-sm letter-spacing text-white text-uppercase font-weight-bold">Home</a></li>
                     <li class="list-inline-item"><span class="text-white">|</span></li>
-                    <li class="list-inline-item"><a href="#" class="text-color text-uppercase text-sm letter-spacing">Profile page</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-color text-uppercase text-sm letter-spacing">Profile</a></li>
                   </ul>
-                   <h1 class="text-lg text-white mt-2">Profile Page</h1>
+                   <h1 class="text-lg text-white mt-2">What We do</h1>
               </div>
             </div>
           </div>
@@ -62,19 +62,13 @@ button:hover, a:hover {
 <h2 style="text-align:center">User Profile Card</h2>
 
 <div class="card">
-  <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-  <h1>John Doe</h1>
-  <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-  </div>
-  <p><button>Contact</button></p>
+    <h1>2118228</h1>
+    <p class="title">Nooralya</p>
+    <p class="title">Zuraimi</p>
+    <p>nqasrinazuraimi@gmail.com</p>
+
 </div>
 
 </body>
 </html>
-
+@endsection
