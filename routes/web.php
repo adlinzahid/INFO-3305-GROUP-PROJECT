@@ -18,12 +18,24 @@ Route::get('/', function () {
     return view('mainpage');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('/booking', function () {
     return view('booking');
 });
 
 Route::get('/profile', function () {
     return view('profile');
+});
+
+Route::get('/registration', function () {
+    return view('registration');
+});
+
+Route::get('/customer', function () {
+    return view('customer');
 });
 
 // Route::get('/listbooking', function () {

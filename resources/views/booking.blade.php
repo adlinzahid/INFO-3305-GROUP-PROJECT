@@ -1,6 +1,13 @@
 @extends('master.layout')
 @section('content')
 
+
+<script>
+    function showMessage() {
+      alert("Hello! We are pleased to inform you that your booking is confirmed. Thank You!");
+    }
+  </script>
+
     <!-- Section About start -->
     <div class="main-wrapper ">
         <section class="page-title bg-2">
@@ -41,18 +48,24 @@
                         margin-bottom: 15px;
                     }
 
+                    .title {
+
+                    }
+
                     .icon {
                         padding: 10px;
                         background: red;
                         color: white;
                         min-width: 50px;
                         text-align: center;
+                        border-radius: 10px;
                     }
 
                     .input-field {
                         width: 100%;
                         padding: 10px;
                         outline: none;
+                        border-radius: 10px;
                     }
 
                     .input-field:focus {
@@ -80,7 +93,7 @@
 
                     <form action="/addbooking" method="post" role="form" enctype="multipart/form-data" style="max-width:500px;margin:auto">
                         @csrf
-                        <h2>Booking Form</h2>
+                        <h1>Gym Booking Form</h1>
 
                         <div class="input-container">
                             <i class="fa fa-user icon"></i>
@@ -114,7 +127,7 @@
                         </div>
 
 
-                        <button type="submit" class="btn">Submit</button>
+                        <button type="submit" onclick="showMessage()" href="/listbooking" class="btn">Submit</button>
                     </form>
 
                 </body>

@@ -13,7 +13,7 @@
                                     class="text-sm letter-spacing text-white text-uppercase font-weight-bold">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">|</span></li>
                             <li class="list-inline-item"><a href="#"
-                                    class="text-color text-uppercase text-sm letter-spacing">Our booking system</a></li>
+                                    class="text-color text-uppercase text-sm letter-spacing">List Of Booking Details</a></li>
                         </ul>
                         <h1 class="text-lg text-white mt-2">Online Booking System</h1>
                     </div>
@@ -35,10 +35,10 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="title-box-2">
-                        <h5 class="title-left">
-                          List of Booking
-                        </h5>
+                      <h1 class="title-left" style="text-shadow:1px 1px 0 #444" style=>Booking Details</h1>
+
                       </div>
+
 
                         <table class="table table-striped table-dark">
                             <thead>

@@ -19,7 +19,7 @@
 
   <meta name="author" content="Themefisher.com">
 
-  <title>GymFit| Fitness template</title>
+  <title>Gym Management System| Fitness template</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{asset('github template\gymfit-main\gymfit-main/theme/plugins/bootstrap/css/bootstrap.min.css')}}">
@@ -46,7 +46,7 @@
 <nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="index.html">
-			<h2 class="text-white text-capitalize"></i>Gym<span class="text-color">Fit</span></h2>
+			<h2 class="text-white text-capitalize"></i>Gym<span class="text-color">Management System</span></h2>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid"
 			aria-controls="navbarsid" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,27 +55,22 @@
 		<div class="collapse text-center navbar-collapse" id="navbarsid">
 			<ul class="navbar-nav mx-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="/mainpage">Homepage<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/home">Homepage<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+					<a class="nav-link dropdown-toggle" href="/registration" data-toggle="dropdown" aria-haspopup="true"
 						aria-expanded="false">Registration</a>
 
 				</li>
 				<li class="nav-item"><a class="nav-link" href="/booking">Booking</a></li>
 				<li class="nav-item"><a class="nav-link" href="/listbooking">List Of Booking</a></li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+					<a class="nav-link dropdown-toggle" href="/customer" data-toggle="dropdown" aria-haspopup="true"
 						aria-expanded="false">Customer Review</a>
 
 				</li>
 				<li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
 			</ul>
-			<div class="my-md-0 ml-lg-4 mt-4 mt-lg-0 ml-auto text-lg-right mb-3 mb-lg-0">
-				<a href="tel:+23-345-67890">
-					<h3 class="text-color mb-0"><i class="ti-mobile mr-2"></i></h3>
-				</a>
-			</div>
 		</div>
 	</div>
 </nav>
@@ -91,10 +86,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-				<h2 class="text-white mb-4">GymFit</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque cumque dolorum.</p>
+				<h2 class="text-white mb-4">Gym Management System</h2>
+				<p>This gym management application was developed with the intention of making it easier for gym management, which includes registration for new users, and booking based on desired day and time.</p>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<p>Female Gym IIUM</p>
 			</div>
 
 
@@ -102,11 +97,11 @@
 				<div class="footer-widget recent-blog">
 					<h4 class="mb-4 text-white letter-spacing text-uppercase">Recents Posts</h4>
 					<div>
-						<a href="blog-single.html"class="text-white">Claritas est etiam processus dynamicus</a>
+						<a href="blog-single.html"class="text-white">Modern Equipment</a>
 						<p class="text-sm mt-2 text-white-50">30 february 2019</p>
 					</div>
 					<div class="mt-4">
-						<a href="blog-single.html"class="text-white">Claritas est etiam processus dynamicus</a>
+						<a href="blog-single.html"class="text-white">Good Environment</a>
 						<p class="text-sm mt-2 text-white-50">30 february 2019</p>
 					</div>
 
@@ -127,26 +122,14 @@
 			<div class="col-lg-3 col-md-5">
 				<div class="footer-widget">
 					<h4 class="mb-4 text-white letter-spacing text-uppercase">Home location</h4>
-					<p>Washington 6036 Richmond
-					hwy., Alexandria, VA USA 22303 </p>
-					<span class="text-white">+1 (409) 987–5874</span>
-					<span class="text-white">info@demolink.org</span>
+					<p> Female Fitness Gym IIUM Centre</p>
+					<span class="text-white">+60 11189285</span>
+					<span class="text-white">gymfit@gmail.com</span>
 				</div>
 			</div>
 		</div>
 
-		<div class="row align-items-center mt-5 px-3 bg-black mx-1">
-			<div class="col-lg-4">
-				<p class="text-white mt-3">Gymfit © 2019 , Theme By <a href="https://themefisher.com/" class="text-color">Themefisher.com</a></p>
-			</div>
-			<div class="col-lg-6 ml-auto text-right">
-				<ul class="list-inline mb-0 footer-socials">
-					<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a></li>
-					<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a></li>
-					<li class="list-inline-item"><a href="https://github.com/themefisher/"><i class="ti-github"></i></a></li>
-				</ul>
-			</div>
-		</div>
+		
 	</div>
 </footer>
 <!-- Section Footer End -->
